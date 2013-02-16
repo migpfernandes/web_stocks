@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
 <?php 
  // Connects to your Database 
 
@@ -130,3 +135,4 @@ value="Register"></th></tr> </table>
 
  }
  ?> 
+ <html/>

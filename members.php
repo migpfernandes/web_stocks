@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
 <?php 
 
  // Connects to your Database 
@@ -9,13 +14,13 @@
  
  //checks cookies to make sure they are logged in 
 
- if(isset($_COOKIE['ID_my_site'])) 
+ if(isset($_COOKIE['ID_web_stocks'])) 
 
  { 
 
- 	$username = $_COOKIE['ID_my_site']; 
+ 	$username = $_COOKIE['ID_web_stocks']; 
 
- 	$pass = $_COOKIE['Key_my_site']; 
+ 	$pass = $_COOKIE['Key_web_stocks']; 
 
  	 	$check = mysql_query("SELECT * FROM users WHERE username = '$username'")or die(mysql_error()); 
 
@@ -66,3 +71,4 @@
  } 
 
  ?>
+ <html/>
