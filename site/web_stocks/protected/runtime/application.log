@@ -122,3 +122,100 @@ REQUEST_URI=/web_stocks/site/web_stocks/index.php/entidade/update/1
 in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\models\Entidade.php (53)
 in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\entidade\_form.php (20)
 in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\entidade\update.php (21)
+2013/03/17 05:20:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web_stocks.{{users}}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{{users}}`.
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\modules\user\controllers\DefaultController.php (18)
+in C:\xampp\htdocs\web_stocks\site\web_stocks\index.php (13)
+2013/03/17 05:20:05 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{users}}" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('User')
+#2 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\modules\user\controllers\DefaultController.php(18): CActiveDataProvider->__construct('User', Array)
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/user
+---
+2013/03/17 05:21:05 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.perfix" is not defined.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\YiiBase.php(220): CComponent->__set('perfix', 'tbl_')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(438): CModule->getComponent('db')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(User))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('User')
+#7 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\modules\user\controllers\DefaultController.php(18): CActiveDataProvider->__construct('User', Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#14 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/user
+---
+2013/03/17 05:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\modules\user\controllers\ProfileFieldController.php:500
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\modules\user\controllers\ProfileFieldController.php(400): ProfileFieldController->loadModel()
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CInlineAction.php(49): ProfileFieldController->actionDelete()
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('delete')
+#11 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('user/profileFie...')
+#12 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/user/profileField/delete/id/6?ajax=yw1
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/user/profileField/admin
+---
+2013/03/17 05:25:51 [error] [php] include(UserModule.php): failed to open stream: No such file or directory (C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\models\Entidade.php(53): spl_autoload_call()
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CModel.php(283): Entidade->rules()
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CModel.php(260): Entidade->createValidators()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CModel.php(303): Entidade->getValidators()
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\helpers\CHtml.php(1237): Entidade->isAttributeRequired()
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\widgets\CActiveForm.php(562): activeLabelEx()
+#6 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\entidade\_form.php(20): CActiveForm->labelEx()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(126): require()
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(95): EntidadeController->renderInternal()
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(869): EntidadeController->renderFile()
+#10 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\entidade\update.php(21): EntidadeController->renderPartial()
+#11 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(95): EntidadeController->renderInternal()
+#13 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(869): EntidadeController->renderFile()
+#14 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(782): EntidadeController->renderPartial()
+#15 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\controllers\EntidadeController.php(103): EntidadeController->render()
+#16 unknown(0): EntidadeController->actionUpdate()
+#17 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#18 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#19 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): EntidadeController->runAction()
+#21 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#23 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): EntidadeController->filterAccessControl()
+#24 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): EntidadeController->runActionWithFilters()
+#27 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): EntidadeController->run()
+#28 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#29 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CWebApplication->run()
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/entidade/update/1
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\models\Entidade.php (53)
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\entidade\_form.php (20)
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\entidade\update.php (21)
