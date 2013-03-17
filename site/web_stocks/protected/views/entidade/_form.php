@@ -12,7 +12,7 @@
         'enableClientValidation'=>true,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Campos com <span class="required">*</span> são obrigatórios.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -75,6 +75,7 @@
 		<?php echo $form->textField($model,'tipoentidade',array('size'=>1,'maxlength'=>1)); ?>
 		<?php echo $form->error($model,'tipoentidade'); ?>
 	</div>
+        <div class="note">C = Cliente ; F = Fornecedor</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

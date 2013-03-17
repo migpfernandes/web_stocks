@@ -2,33 +2,40 @@
 /* @var $this ProdutoController */
 /* @var $model Produto */
 
-$this->breadcrumbs=array(
-	'Produtos'=>array('index'),
-	$model->idproduto,
+$this->breadcrumbs = array(
+    'Produtos' => array('index'),
+    $model->nome,
 );
 
-$this->menu=array(
-	array('label'=>'List Produto', 'url'=>array('index')),
-	array('label'=>'Create Produto', 'url'=>array('create')),
-	array('label'=>'Update Produto', 'url'=>array('update', 'id'=>$model->idproduto)),
-	array('label'=>'Delete Produto', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idproduto),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Produto', 'url'=>array('admin')),
+$this->menu = array(
+    array('label' => 'Todos os produtos', 'url' => array('index')),
+    array('label' => 'Criar', 'url' => array('create')),
+    array('label' => 'Atualizar', 'url' => array('update', 'id' => $model->idproduto)),
+    array('label' => 'Eliminar', 'url' => '#', 'linkOptions' => array('submit' => array('delete', 'id' => $model->idproduto), 'confirm' => 'Tem a certeza que pretende eliminar este produto?')),
+    array('label' => 'Adminitração', 'url' => array('admin')),
 );
 ?>
 
-<h1>View Produto #<?php echo $model->idproduto; ?></h1>
+<h1><?php echo $model->nome; ?></h1>
 
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		'idproduto',
-		'fornecedorid',
-		'doccompra',
-		'nome',
-		'descricao',
-		'unidade',
-		'quantidade',
-		'precoUnit',
-		'precototal',
-	),
-)); ?>
+<?php
+$this->widget('zii.widgets.CDetailView', array(
+    'data' => $model,
+    'attributes' => array(
+        'idproduto',
+        'fornecedorid',
+        'doccompra',
+        'nome',
+        //'descricao',
+        'unidade',
+        'quantidade',
+        'precoUnit',
+        'precototal',
+        array(
+            'name' => 'descricao',
+            'type' => 'html',
+            'value' => $model->descricao,
+        ),
+    ),
+));
+?>

@@ -4,18 +4,18 @@
 
 $this->breadcrumbs=array(
 	'Entidades'=>array('index'),
-	$model->identidade=>array('view','id'=>$model->identidade),
-	'Update',
+	$model->identidade=>array('view','id'=>$model->nome),
+	'Atualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Entidade', 'url'=>array('index')),
-	array('label'=>'Create Entidade', 'url'=>array('create')),
-	array('label'=>'View Entidade', 'url'=>array('view', 'id'=>$model->identidade)),
-	array('label'=>'Manage Entidade', 'url'=>array('admin')),
+	array('label'=>'Todas as entidades', 'url'=>array('index')),
+	array('label'=>'Criar', 'url'=>array('create')),
+	array('label'=>'Ver', 'url'=>array('view', 'id'=>$model->identidade)),
+	array('label'=>'Administração', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Entidade <?php echo $model->identidade; ?></h1>
+<h1><?php echo $model->nome; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

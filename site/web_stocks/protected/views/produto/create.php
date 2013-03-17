@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'Produtos'=>array('index'),
-	'Create',
+	'Criar',
 );
 
 $this->menu=array(
-	array('label'=>'List Produto', 'url'=>array('index')),
-	array('label'=>'Manage Produto', 'url'=>array('admin')),
+	array('label'=>'Todos os produtos', 'url'=>array('index')),
+	array('label'=>'Admnistração', 'url'=>array('admin')),
 );
 ?>
 

@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Obra', 'url'=>array('create')),
-	array('label'=>'Manage Obra', 'url'=>array('admin')),
+	array('label'=>'Criar', 'url'=>array('create')),
+	array('label'=>'Administração', 'url'=>array('admin')),
 );
 ?>
 

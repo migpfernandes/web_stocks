@@ -4,18 +4,18 @@
 
 $this->breadcrumbs=array(
 	'Obras'=>array('index'),
-	$model->idobra=>array('view','id'=>$model->idobra),
-	'Update',
+	$model->codigo=>array('view','id'=>$model->idobra),
+	'Atualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Obra', 'url'=>array('index')),
-	array('label'=>'Create Obra', 'url'=>array('create')),
-	array('label'=>'View Obra', 'url'=>array('view', 'id'=>$model->idobra)),
-	array('label'=>'Manage Obra', 'url'=>array('admin')),
+	array('label'=>'Todas as obras', 'url'=>array('index')),
+	array('label'=>'Criar', 'url'=>array('create')),
+	array('label'=>'Ver', 'url'=>array('view', 'id'=>$model->idobra)),
+	array('label'=>'Administração', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Obra <?php echo $model->idobra; ?></h1>
+<h1>Atualizar <?php echo $model->codigo; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

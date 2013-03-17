@@ -33,7 +33,7 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'data'); ?>
-		<?php echo $form->textField($model,'data',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->textField($model,'data'); ?>
 	</div>
 
 	<div class="row buttons">

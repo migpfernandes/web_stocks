@@ -219,3 +219,722 @@ REQUEST_URI=/web_stocks/site/web_stocks/index.php/entidade/update/1
 in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\models\Entidade.php (53)
 in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\entidade\_form.php (20)
 in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\entidade\update.php (21)
+2013/03/17 15:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "produto" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('produto')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('produto')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/produto')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/site/produto
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/
+---
+2013/03/17 15:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "produto" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('produto')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('produto')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/produto')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/site/produto
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/
+---
+2013/03/17 15:50:45 [error] [php] include(Fornecedor.php): failed to open stream: No such file or directory (C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\produto\_form.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(95): ProdutoController->renderInternal()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(869): ProdutoController->renderFile()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\produto\create.php(18): ProdutoController->renderPartial()
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(126): require()
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(95): ProdutoController->renderInternal()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(869): ProdutoController->renderFile()
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(782): ProdutoController->renderPartial()
+#9 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\controllers\ProdutoController.php(79): ProdutoController->render()
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CInlineAction.php(49): ProdutoController->actionCreate()
+#11 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): ProdutoController->runAction()
+#13 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): ProdutoController->filterAccessControl()
+#16 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): ProdutoController->runActionWithFilters()
+#19 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): ProdutoController->run()
+#20 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CWebApplication->run()
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/create
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\produto\_form.php (22)
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\produto\create.php (18)
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\controllers\ProdutoController.php (79)
+2013/03/17 15:55:32 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'F' in 'where clause'. A declaração SQL executada foi: SELECT * FROM `entidade` `t` WHERE tipoentidade=F ORDER BY nome.
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\produto\_form.php (22)
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\produto\create.php (18)
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\controllers\ProdutoController.php (79)
+2013/03/17 15:55:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'F' in 'where clause'. The SQL statement executed was: SELECT * FROM `entidade` `t` WHERE tipoentidade=F ORDER BY nome' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\produto\_form.php(22): CActiveRecord->findAll(Array)
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\produto\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\controllers\ProdutoController.php(79): CController->render('create', Array)
+#13 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CInlineAction.php(49): ProdutoController->actionCreate()
+#14 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/create')
+#24 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/create
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/index
+---
+2013/03/17 16:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:10:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:11:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:11:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:12:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:13:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:14:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:15:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "cks" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('cks')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('cks')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/cks/pro...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/cks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/create
+---
+2013/03/17 16:16:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/update/...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/update/web_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/update/1
+---
+2013/03/17 16:21:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/update/...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/update/web_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/update/1
+---
+2013/03/17 16:21:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/update/...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/update/web_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/update/1
+---
+2013/03/17 16:22:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/update/...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/update/web_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/update/1
+---
+2013/03/17 16:22:22 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/update/...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/update/web_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/update/1
+---
+2013/03/17 16:52:12 [error] [exception.CException] exception 'CException' with message 'A propriedade "range" deve ser especificada com uma lista de valores.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\validators\CRangeValidator.php:77
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\widgets\CActiveForm.php(479): CRangeValidator->clientValidateAttribute(Object(Entidade), 'tipoentidade')
+#1 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\entidade\_form.php(76): CActiveForm->error(Object(Entidade), 'tipoentidade')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\entidade\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\controllers\EntidadeController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CInlineAction.php(49): EntidadeController->actionCreate()
+#12 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('entidade/create')
+#22 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/entidade/create
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/entidade
+---
+2013/03/17 17:31:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:32:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:34:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:34:20 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:34:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:35:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:35:42 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:36:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:40:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:41:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:41:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/update/_st...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/update/_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/update/1
+---
+2013/03/17 17:58:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), 'Voc?? n??o est?...')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('createInObra')
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obramovimento/c...')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obramovimento/createInObra/ObraID/1
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra/1
+---
+2013/03/17 18:20:10 [error] [php] Object of class Produto could not be converted to int (C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\schema\CDbColumnSchema.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php(1431): CMysqlCommandBuilder->createPkCriteria()
+#1 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\models\Obramovimento.php(98): Produto->findByPk()
+#2 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\models\Obra.php(109): Obramovimento->LinhaToArray()
+#3 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\obra\view.php(44): Obra->GetLinhasArray()
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(869): ObraController->renderFile()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(782): ObraController->renderPartial()
+#8 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\controllers\ObraController.php(56): ObraController->render()
+#9 unknown(0): ObraController->actionView()
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#14 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#16 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#17 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#18 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#20 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): ObraController->run()
+#21 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CWebApplication->run()
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/1
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\models\Obramovimento.php (98)
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\models\Obra.php (109)
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\obra\view.php (44)
+2013/03/17 18:20:29 [error] [exception.CException] exception 'CException' with message 'Obra and its behaviors do not have a method or closure named "GetValorTotal".' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php(225): CComponent->__call('GetValorTotal', Array)
+#1 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\obra\view.php(55): CActiveRecord->__call('GetValorTotal', Array)
+#2 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\views\obra\view.php(55): Obra->GetValorTotal()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#7 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\controllers\ObraController.php(56): CController->render('view', Array)
+#8 [internal function]: ObraController->actionView('1')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ObraController), Array)
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ObraController), Object(ReflectionMethod), Array)
+#11 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('view')
+#20 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/view')
+#21 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/obra/1
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/obra
+---
+2013/03/17 18:22:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "exportTable" solicitada.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(270): CController->missingAction('exportTable')
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('exportTable')
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/exportTabl...')
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/site/exportTable
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/Obra/1
+---
+2013/03/17 18:24:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/delete')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/delete/1
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/user/login
+---
+2013/03/17 18:24:28 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`web_stocks`.`obramovimento`, CONSTRAINT `obramovimento_produto` FOREIGN KEY (`produtoid`) REFERENCES `produto` (`idproduto`) ON DELETE NO ACTION ON UPDATE NO ACTION). A declaração SQL executada foi: DELETE FROM `produto` WHERE `produto`.`idproduto`=1.
+in C:\xampp\htdocs\web_stocks\site\web_stocks\protected\controllers\ProdutoController.php (113)
+in C:\xampp\htdocs\web_stocks\site\web_stocks\index.php (13)
+2013/03/17 18:24:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`web_stocks`.`obramovimento`, CONSTRAINT `obramovimento_produto` FOREIGN KEY (`produtoid`) REFERENCES `produto` (`idproduto`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `produto` WHERE `produto`.`idproduto`=1' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('1')
+#2 C:\xampp\htdocs\web_stocks\site\web_stocks\protected\controllers\ProdutoController.php(113): CActiveRecord->delete()
+#3 [internal function]: ProdutoController->actionDelete('1')
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProdutoController), Array)
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProdutoController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1116): CFilterChain->run()
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/delete')
+#19 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/delete/1
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/1
+---
+2013/03/17 18:32:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/update/...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/update/web_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/update/1
+---
+2013/03/17 18:35:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('produto/update/...')
+#10 C:\xampp\htdocs\web_stocks\site\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\web_stocks\site\web_stocks\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web_stocks/site/web_stocks/index.php/produto/update/web_stocks/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js?t=B8DJ5M3
+HTTP_REFERER=http://localhost/web_stocks/site/web_stocks/index.php/produto/update/1
+---

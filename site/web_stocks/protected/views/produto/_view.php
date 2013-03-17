@@ -21,10 +21,6 @@
 	<?php echo CHtml::encode($data->nome); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('descricao')); ?>:</b>
-	<?php echo CHtml::encode($data->descricao); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('unidade')); ?>:</b>
 	<?php echo CHtml::encode($data->unidade); ?>
 	<br />

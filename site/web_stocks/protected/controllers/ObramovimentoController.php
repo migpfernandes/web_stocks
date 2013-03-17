@@ -32,7 +32,7 @@ class ObramovimentoController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update', 'createInObra'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -142,6 +142,43 @@ class ObramovimentoController extends Controller
 			'model'=>$model,
 		));
 	}
+        
+        /**
+         *  Create in Obra
+         *  If creation is successful, the browser will be redirected to the 'view' page of Obra.
+         */
+        public function actionCreateInObra()
+	{
+		$model=new Obramovimento;
+		$ObraID = 1;
+		
+		if(isset($_GET['ObraID']))
+		{
+			$ObraID = $_GET['ObraID'];
+		}
+		
+		// Uncomment the following line if AJAX validation is needed
+		//$this->performAjaxValidation($model);
+	
+		if(isset($_POST['Obramovimento']))
+		{
+			$model->attributes=$_POST['Obramovimento'];
+			$model->obraid = $ObraID;
+				
+			if($model->save()){
+		
+				//$this->redirect(array('admin'));
+				$this->redirect(array('Obra/view','id'=>$model->obraid));
+	
+			}
+		}
+	
+		$this->render('createInObra',array(
+				'model'=>$model,
+				'ObraID'=> $ObraID,
+		));
+	}
+        
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.

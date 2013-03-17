@@ -32,6 +32,10 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('telefone')); ?>:</b>
 	<?php echo CHtml::encode($data->telefone); ?>
 	<br />
+        
+	<b><?php echo CHtml::encode($data->getAttributeLabel('tipoentidade')); ?>:</b>
+	<?php echo CHtml::encode($data->tipoentidade); ?>
+	<br />  
 
 	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('telemovel')); ?>:</b>

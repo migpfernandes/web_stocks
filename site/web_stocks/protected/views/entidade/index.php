@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Entidade', 'url'=>array('create')),
-	array('label'=>'Manage Entidade', 'url'=>array('admin')),
+	array('label'=>'Criar', 'url'=>array('create')),
+	array('label'=>'Administração', 'url'=>array('admin')),
 );
 ?>
 

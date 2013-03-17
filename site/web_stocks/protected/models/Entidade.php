@@ -55,7 +55,9 @@ class Entidade extends CActiveRecord
 			array('nome, morada, localidade, site', 'length', 'max'=>150),
 			array('telefone, telemovel', 'length', 'max'=>20),
 			array('email', 'length', 'max'=>100),
+                        array('email', 'email'),
 			array('tipoentidade', 'length', 'max'=>1),
+                        array('tipoentidade', 'in', 'range'=>array('C', 'F', 'N')),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('identidade, codigo, nome, morada, localidade, codpostal, telefone, telemovel, email, site, tipoentidade', 'safe', 'on'=>'search'),
@@ -82,17 +84,17 @@ class Entidade extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'identidade' => 'Identidade',
-			'codigo' => 'Codigo',
+			'identidade' => 'ID',
+			'codigo' => 'Código',
 			'nome' => 'Nome',
 			'morada' => 'Morada',
 			'localidade' => 'Localidade',
-			'codpostal' => 'Codpostal',
+			'codpostal' => 'Código Postal',
 			'telefone' => 'Telefone',
-			'telemovel' => 'Telemovel',
+			'telemovel' => 'Telemóvel',
 			'email' => 'Email',
 			'site' => 'Site',
-			'tipoentidade' => 'Tipoentidade',
+			'tipoentidade' => 'Tipo de entidade',
 		);
 	}
 
