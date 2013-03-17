@@ -1,0 +1,3 @@
+[submodule "site/web_stocks/protected/modules/user"]
+	path = site/web_stocks/protected/modules/user
+	url = https://github.com/mishamx/yii-user.git
